@@ -4,11 +4,11 @@ fuel = 30
 minimum = 50
 
 if fuel >= minimum:
-    print("Status: CLEARED FOR LAUNCH")
-    print("Fuel sufficient")
+    print("Status: CLEARED FOR DEPARTURE")
+    print("Fuel enough for travelling")
 else:
-    print("Status: HOLD LAUNCH")
-    print("Insufficient fuel!")
+    print("Status: HOLD START")
+    print("Insufficient gasoline!")
     needed = minimum - fuel
     print(f"Need: {needed} more units")
 
